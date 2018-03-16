@@ -20,7 +20,10 @@
     "extra": {
         "branch-alias": {
             "dev-master": "1.x-dev"
-        }
+        },
+        "expose": [
+            "client/dist"
+        ]
     },
     "minimum-stability": "dev"
 }
